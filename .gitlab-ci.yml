@@ -1,24 +1,5 @@
 ---
-# GitLab CI/CD pipeline with building docker images
-# Use docker-in-docker service for testing
-# Use docker-compose.yml for deploy
-
-stages:
-   - deploy
-
-variables:
-    DOCKER_TLS_CERTDIR: ""
-
-deploy:
-  image: alpine:latest
-  stage: deploy
-  tags:
-    - deployment
-  script:
-    ---
-# GitLab CI/CD pipeline with building docker images
-# Use docker-in-docker service for testing
-# Use docker-compose.yml for deploy
+# GitLab CI/CD pipeline 
 
 stages:
    - deploy
